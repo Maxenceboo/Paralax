@@ -19,5 +19,39 @@ section
 .text
 {
     position: relative;
-    transform: skewY(345deg);
+    transform: skewY(345deg) translateY(-200px);
+    animation: animateColor 5s linear infinite;
+}
+@keyframes animateColor 
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+.text h2
+{
+    position: relative;
+    width: 100%;
+    font-size: 8em;
+    color: #fff;
+    pointer-events: none;
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+.text h2 span
+{
+    color: #0f0;
+    margin: 0 10px;
+}
+
+.text h2 span:nth-child(event)
+{
+    background: transparent;
+    -webkit-text-stroke: 2px #fff;
 }
