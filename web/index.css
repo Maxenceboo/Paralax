@@ -10,8 +10,8 @@
 section
 {
     position: relative;
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     background: #111;
 }
@@ -55,3 +55,4 @@ section
     background: transparent;
     -webkit-text-stroke: 2px #fff;
 }
+
