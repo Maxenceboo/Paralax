@@ -42,7 +42,7 @@ section
     pointer-events: none;
     line-height: 1em;
     white-space: nowrap;
-    transform: translateX(calc(0% - var(--x) * 2));
+    transform: translateX(calc(0% - var(--X) * 2));
 }
 
 .text h2 span
